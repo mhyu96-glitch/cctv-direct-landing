@@ -11,7 +11,7 @@ interface ProductCardProps {
 
 const ProductCard = ({ product }: ProductCardProps) => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "6282345678901"; // Borneo Etam CCTV WhatsApp
+    const phoneNumber = "6282354512342"; // Borneo Etam CCTV WhatsApp
     const message = encodeURIComponent(product.whatsappMessage);
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
