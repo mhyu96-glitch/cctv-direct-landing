@@ -41,7 +41,7 @@ const Index = () => {
                 <Award className="h-10 w-10 text-tech-accent" />
               </div>
               <h3 className="text-xl font-semibold text-security-dark mb-2">Garansi Terpercaya</h3>
-              <p className="text-muted-foreground">Garansi resmi 2 tahun dengan layanan purna jual terbaik</p>
+              <p className="text-muted-foreground">Garansi resmi 1 tahun dengan layanan purna jual terbaik</p>
             </div>
             
             <div className="text-center">
