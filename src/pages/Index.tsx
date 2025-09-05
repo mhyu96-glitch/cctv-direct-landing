@@ -14,7 +14,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-security-dark mb-4">
-              Mengapa Memilih SecureVision?
+              Mengapa Memilih Borneo Etam CCTV?
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Kami adalah penyedia sistem keamanan CCTV terpercaya dengan pengalaman lebih dari 10 tahun melayani berbagai industri di Indonesia.
@@ -77,7 +77,7 @@ const Index = () => {
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 text-white">
                 <h3 className="font-semibold mb-2">Email</h3>
-                <p className="text-white/80">info@securevision.co.id</p>
+                <p className="text-white/80">info@borneo-etam-cctv.co.id</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 text-white">
                 <h3 className="font-semibold mb-2">Alamat</h3>

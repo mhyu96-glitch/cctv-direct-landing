@@ -24,7 +24,7 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "dome-4k-pro",
-    name: "SecureVision Dome 4K Pro",
+    name: "Borneo Etam Dome 4K Pro",
     category: "Indoor CCTV",
     price: "Rp 2.850.000",
     originalPrice: "Rp 3.200.000",
@@ -45,11 +45,11 @@ export const products: Product[] = [
       connectivity: "WiFi + Ethernet"
     },
     description: "Kamera dome premium dengan teknologi AI terdepan untuk pengawasan indoor yang optimal. Dilengkapi dengan fitur deteksi gerakan cerdas dan kualitas video 4K yang jernih.",
-    whatsappMessage: "Halo, saya tertarik dengan SecureVision Dome 4K Pro seharga Rp 2.850.000. Bisakah Anda berikan informasi lebih lengkap?"
+    whatsappMessage: "Halo, saya tertarik dengan Borneo Etam Dome 4K Pro seharga Rp 2.850.000. Bisakah Anda berikan informasi lebih lengkap?"
   },
   {
     id: "bullet-outdoor-ultra",
-    name: "SecureVision Bullet Outdoor Ultra",
+    name: "Borneo Etam Bullet Outdoor Ultra",
     category: "Outdoor CCTV",
     price: "Rp 3.250.000",
     originalPrice: "Rp 3.650.000",
@@ -70,11 +70,11 @@ export const products: Product[] = [
       connectivity: "PoE + WiFi"
     },
     description: "Kamera bullet outdoor tahan cuaca dengan teknologi night vision terdepan. Ideal untuk pengawasan perimeter dan area outdoor yang membutuhkan keamanan maksimal.",
-    whatsappMessage: "Halo, saya ingin menanyakan tentang SecureVision Bullet Outdoor Ultra seharga Rp 3.250.000. Apakah ada paket instalasi?"
+    whatsappMessage: "Halo, saya ingin menanyakan tentang Borneo Etam Bullet Outdoor Ultra seharga Rp 3.250.000. Apakah ada paket instalasi?"
   },
   {
     id: "ptz-smart-360",
-    name: "SecureVision PTZ Smart 360",
+    name: "Borneo Etam PTZ Smart 360",
     category: "PTZ Camera",
     price: "Rp 8.500.000",
     originalPrice: "Rp 9.500.000",
@@ -95,11 +95,11 @@ export const products: Product[] = [
       connectivity: "Fiber Optic + Ethernet"
     },
     description: "Kamera PTZ premium dengan kontrol penuh 360 derajat dan zoom optical 30x. Solusi ultimate untuk pengawasan area luas dengan coverage maksimal.",
-    whatsappMessage: "Halo, saya berminat dengan SecureVision PTZ Smart 360 seharga Rp 8.500.000. Bisakah saya mendapat demo produk?"
+    whatsappMessage: "Halo, saya berminat dengan Borneo Etam PTZ Smart 360 seharga Rp 8.500.000. Bisakah saya mendapat demo produk?"
   },
   {
     id: "dome-basic-hd",
-    name: "SecureVision Dome Basic HD",
+    name: "Borneo Etam Dome Basic HD",
     category: "Indoor CCTV",
     price: "Rp 1.250.000",
     image: domeImage,
@@ -119,11 +119,11 @@ export const products: Product[] = [
       connectivity: "WiFi"
     },
     description: "Solusi CCTV ekonomis dengan kualitas Full HD untuk pengawasan indoor. Mudah dipasang dan dioperasikan, cocok untuk rumah dan kantor kecil.",
-    whatsappMessage: "Halo, saya tertarik dengan SecureVision Dome Basic HD seharga Rp 1.250.000. Apakah ada promo khusus?"
+    whatsappMessage: "Halo, saya tertarik dengan Borneo Etam Dome Basic HD seharga Rp 1.250.000. Apakah ada promo khusus?"
   },
   {
     id: "bullet-night-vision",
-    name: "SecureVision Bullet Night Vision",
+    name: "Borneo Etam Bullet Night Vision",
     category: "Outdoor CCTV",
     price: "Rp 1.850.000",
     image: bulletImage,
@@ -143,11 +143,11 @@ export const products: Product[] = [
       connectivity: "BNC + WiFi"
     },
     description: "Kamera bullet outdoor dengan teknologi night vision canggih. Tahan cuaca dan memberikan gambar jernih bahkan dalam kondisi gelap total.",
-    whatsappMessage: "Halo, saya ingin tahu lebih lanjut tentang SecureVision Bullet Night Vision seharga Rp 1.850.000. Apakah cocok untuk area parkir?"
+    whatsappMessage: "Halo, saya ingin tahu lebih lanjut tentang Borneo Etam Bullet Night Vision seharga Rp 1.850.000. Apakah cocok untuk area parkir?"
   },
   {
     id: "ptz-compact-zoom",
-    name: "SecureVision PTZ Compact Zoom",
+    name: "Borneo Etam PTZ Compact Zoom",
     category: "PTZ Camera",
     price: "Rp 4.750.000",
     image: ptzImage,
@@ -167,7 +167,7 @@ export const products: Product[] = [
       connectivity: "PoE + Control Cable"
     },
     description: "Kamera PTZ kompak dengan fitur zoom dan tracking cerdas. Ideal untuk pengawasan area medium dengan kebutuhan kontrol dan monitoring fleksibel.",
-    whatsappMessage: "Halo, saya tertarik dengan SecureVision PTZ Compact Zoom seharga Rp 4.750.000. Bisakah dijelaskan fitur smart tracking-nya?"
+    whatsappMessage: "Halo, saya tertarik dengan Borneo Etam PTZ Compact Zoom seharga Rp 4.750.000. Bisakah dijelaskan fitur smart tracking-nya?"
   }
 ];
 

@@ -13,7 +13,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Shield className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-security-dark">SecureVision</span>
+            <span className="text-xl font-bold text-security-dark">Borneo Etam CCTV</span>
           </Link>
 
           {/* Desktop Navigation */}
