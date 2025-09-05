@@ -2,10 +2,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ProductGrid from "@/components/ProductGrid";
 import { Shield, Users, Award, Headphones } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       <Hero />
       
@@ -73,41 +71,33 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 text-white">
                 <h3 className="font-semibold mb-2">WhatsApp</h3>
-                <p className="text-white/80">+62 812-3456-7890</p>
+                <p className="text-white/80">0823-5451-2342</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 text-white">
                 <h3 className="font-semibold mb-2">Email</h3>
-                <p className="text-white/80">info@borneo-etam-cctv.co.id</p>
+                <p className="text-white/80">borneo.etam29@gmail.com</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 text-white">
                 <h3 className="font-semibold mb-2">Alamat</h3>
-                <p className="text-white/80">Jakarta, Indonesia</p>
+                <p className="text-white/80">Jl. Manunggal Gg. 5 No.81 rt 13, Loa Bakung, Kec. Sungai Kunjang, Kota Samarinda, Kalimantan Timur 75126</p>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
-                onClick={() => {
-                  const phone = "6281234567890";
-                  const message = encodeURIComponent("Halo, saya tertarik untuk konsultasi sistem CCTV. Bisakah Anda membantu saya?");
-                  window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
-                }}
-                className="bg-success-green hover:bg-success-green/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
-              >
+              <button onClick={() => {
+              const phone = "6281234567890";
+              const message = encodeURIComponent("Halo, saya tertarik untuk konsultasi sistem CCTV. Bisakah Anda membantu saya?");
+              window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
+            }} className="bg-success-green hover:bg-success-green/90 text-white px-8 py-3 rounded-lg font-medium transition-colors">
                 WhatsApp Konsultasi
               </button>
-              <a 
-                href="tel:+6281234567890"
-                className="bg-white text-security-dark px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
-              >
+              <a href="tel:+6281234567890" className="bg-white text-security-dark px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors">
                 Telepon Sekarang
               </a>
             </div>
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
