@@ -85,13 +85,13 @@ const Index = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button onClick={() => {
-              const phone = "6281234567890";
+              const phone = "6282354512342";
               const message = encodeURIComponent("Halo, saya tertarik untuk konsultasi sistem CCTV. Bisakah Anda membantu saya?");
               window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
             }} className="bg-success-green hover:bg-success-green/90 text-white px-8 py-3 rounded-lg font-medium transition-colors">
                 WhatsApp Konsultasi
               </button>
-              <a href="tel:+6281234567890" className="bg-white text-security-dark px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors">
+              <a href="tel:+6282354512342" className="bg-white text-security-dark px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors">
                 Telepon Sekarang
               </a>
             </div>
